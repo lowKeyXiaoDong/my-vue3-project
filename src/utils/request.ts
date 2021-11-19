@@ -1,5 +1,4 @@
 import axios from 'axios'
-import qs from 'qs'
 
 const service = axios.create({
   timeout: 10000

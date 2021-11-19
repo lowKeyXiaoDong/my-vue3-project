@@ -8,11 +8,11 @@ function createRouter(options) {
   return new Router(options)
 }
 
-function useRouter(params) {
+function useRouter() {
   return inject(ROUTER_KEY)
 }
 
-function createWebHashHistory(params) {
+function createWebHashHistory() {
   function bindEvents(fn) {
     window.addEventListener('hashchange', fn)
   }

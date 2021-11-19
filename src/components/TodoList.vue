@@ -59,7 +59,7 @@ function useTodo() {
 let { title, todos, active, addDone, all, clear, addTodo } = useTodo()
 </script>
 
-<style>
+<style lang="scss">
 .done {
   color: gray;
   text-decoration: line-through;

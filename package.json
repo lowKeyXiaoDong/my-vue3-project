@@ -7,15 +7,21 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "axios": "^0.24.0",
+    "element3": "^0.0.40",
     "vue": "^3.2.16",
     "vue-router": "^4.0.12",
     "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@types/qs": "^6.9.7",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
     "@vitejs/plugin-vue": "^1.9.3",
+    "axios": "^0.24.0",
+    "eslint": "^8.2.0",
+    "eslint-plugin-vue": "^8.1.1",
     "qs": "^6.10.1",
+    "sass": "^1.43.4",
     "vite": "^2.6.4"
   }
 }
