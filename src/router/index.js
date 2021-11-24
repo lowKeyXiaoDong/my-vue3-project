@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../page/home.vue'
 import About from '../page/about.vue'
+import NProgress from 'nprogress'
 
 const routes = [
   {

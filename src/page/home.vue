@@ -1,14 +1,15 @@
 <template>
-  <h1>这是首页</h1>
-  <TodoList />
-  <h1 @click="add">{{ count }}</h1>
-  <Count />
+  <div>
+    <h1>这是首页</h1>
+    <TodoList />
+    <h1 @click="add">{{ count }}</h1>
+    <input v-focus type="text">
+  </div>
 </template>
 
 <script setup>
 import { ref } from 'vue'
 import TodoList from '../components/TodoList.vue'
-import Count from '../components/Count.vue'
 
 let count = ref(0)
 let color = ref('red')

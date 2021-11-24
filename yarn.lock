@@ -1437,6 +1437,11 @@
   "resolved" "https://registry.npm.taobao.org/normalize-wheel/download/normalize-wheel-1.0.1.tgz"
   "version" "1.0.1"
 
+"nprogress@^0.2.0":
+  "integrity" "sha1-y480xTIT2JVyP8urkH6UIq28r7E="
+  "resolved" "https://registry.nlark.com/nprogress/download/nprogress-0.2.0.tgz"
+  "version" "0.2.0"
+
 "object-inspect@^1.9.0":
   "integrity" "sha1-nc6xRs7dQUig2eUauI00z1CZIrE="
   "resolved" "https://registry.nlark.com/object-inspect/download/object-inspect-1.11.0.tgz"
