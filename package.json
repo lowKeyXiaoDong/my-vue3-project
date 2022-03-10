@@ -4,15 +4,40 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "prepare": "husky install",
+    "commit": "cz"
   },
   "dependencies": {
+    "element3": "^0.0.40",
     "vue": "^3.2.16",
     "vue-router": "^4.0.12",
     "vuex": "^4.0.2"
   },
   "devDependencies": {
+    "@types/qs": "^6.9.7",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
     "@vitejs/plugin-vue": "^1.9.3",
+    "axios": "^0.24.0",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.2.0",
+    "eslint-plugin-vue": "^8.1.1",
+    "husky": "^7.0.4",
+    "nprogress": "^0.2.0",
+    "qs": "^6.10.1",
+    "sass": "^1.43.4",
     "vite": "^2.6.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "husky": {
+      "hooks": {
+        "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+      }
+    }
   }
 }
